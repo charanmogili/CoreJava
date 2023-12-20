@@ -2,7 +2,7 @@
 class Displayy{
 	//remove synchronized keyword and run
 	//it makes only one thread to run at a time
-	public synchronized void wish(String name) {
+	public  void wish(String name) {
 		 for(int i=0;i<3;i++) {
 			 System.out.println("Get a Life :"+name);
 		 try {

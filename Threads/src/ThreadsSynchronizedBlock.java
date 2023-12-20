@@ -1,7 +1,9 @@
 class Display2{
        public void wish(String name){ //l-lakh lines of code
 //             synchronized(this)
-    	   synchronized (this)
+    	   System.out.println("Before synchronized block");
+    	   
+    	   synchronized (Display2.class)
     	   {
     		   System.out.println("Thread which is getting the lock is:"+Thread.currentThread().getName());
                       for (int i=0;i<=3;i++ )
@@ -17,7 +19,9 @@ class Display2{
                           System.out.println(name);
                         }
                       System.out.println("Thread which is releasing the lock is:"+Thread.currentThread().getName());
-               }//1-lakh lines of code
+           }//1-lakh lines of code
+    	   
+    	   System.out.println("After synchronized block");
    }
 }
 class MyThread5 extends Thread{
@@ -39,7 +43,7 @@ public class ThreadsSynchronizedBlock {
 		Display2 d1=new Display2();
 		Display2 d2=new Display2();
 		MyThread5 t1=new MyThread5(d1, "di caprio");
-		MyThread5 t2=new MyThread5(d2, "Kate");
+		MyThread5 t2=new MyThread5(d1, "Kate");
 		
 		t1.start();
 		t2.start();

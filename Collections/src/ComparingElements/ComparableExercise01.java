@@ -38,7 +38,7 @@ class Person implements Comparable<Person> {
 		Integer a1 = this.age;
 		Integer a2=other.age;
 		
-		return a1.compareTo(a2);
+		return a2.compareTo(a1);
 	}
 	
 	@Override

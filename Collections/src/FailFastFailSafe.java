@@ -6,12 +6,12 @@ public class FailFastFailSafe {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList ar=new ArrayList();
-		ar.add(20);
-		ar.add(40);
-		ar.add(60);
-		ar.add(70);
-		ar.add(80);
+//		ArrayList ar=new ArrayList();
+//		ar.add(20);
+//		ar.add(40);
+//		ar.add(60);
+//		ar.add(70);
+//		ar.add(80);
 		
 //		for(int i=1;i<ar.size();i++) {
 //			System.out.println(ar.get(i));

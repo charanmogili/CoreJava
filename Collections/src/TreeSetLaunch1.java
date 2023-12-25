@@ -4,7 +4,7 @@ import java.util.TreeSet;
 public class TreeSetLaunch1 {
 
 	public static void main(String[] args) {
-		TreeSet<String> ts=new TreeSet<>();
+		TreeSet ts=new TreeSet();
 //		ts.add(101);
 //		ts.add(12000);
 //		ts.add(16);
@@ -28,6 +28,8 @@ public class TreeSetLaunch1 {
 		ts.add("charan");
 		ts.add("adithi");
 		ts.add("zarena");
+//		ts.add(10);
+//		ts.add(null);
 		System.out.println(ts);
 		
 		Iterator<String> itr=ts.iterator();

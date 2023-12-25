@@ -12,6 +12,7 @@ public class HashSetLaunch1 {
 		hs.add(170);
 		hs.add(201);
 		hs.add(50);
+		hs.add("charan");
 		System.out.println(hs);
 		
 		LinkedHashSet lhs=new LinkedHashSet();
@@ -24,5 +25,4 @@ public class HashSetLaunch1 {
 		lhs.add(50);
 		System.out.println(lhs);
 	}
-
 }

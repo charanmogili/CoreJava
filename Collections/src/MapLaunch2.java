@@ -65,7 +65,7 @@ public class MapLaunch2 {
 		Set set=hm.keySet();
 		Iterator itr4=set.iterator();
 		while(itr4.hasNext()) {
-			System.out.println("Key :"+itr4.next());
+			System.out.print("Key :"+itr4.next());
 		}
 	}
 

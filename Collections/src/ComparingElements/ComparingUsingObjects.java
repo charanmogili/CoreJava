@@ -36,22 +36,22 @@ class Employee implements Comparable{
 	@Override
 	public int compareTo(Object o) {
 
-//		int id1 = this.id;
-//		Employee emp = (Employee) o;
-//		int id2 = emp.id;
+		int id1 = this.id;
+		Employee emp = (Employee) o;
+		int id2 = emp.id;
+		
+		if(id1<id2)
+			return -1;
+		else if(id1>id2)
+			return 1;
+		else
+			return 0;
+		
+//		String n1 = this.name;
+//		Employee emp=(Employee) o;
+//		String n2=emp.name;		
 //		
-//		if(id1<id2)
-//			return -1;
-//		else if(id1>id2)
-//			return 1;
-//		else
-//			return 0;
-		
-		String n1 = this.name;
-		Employee emp=(Employee) o;
-		String n2=emp.name;		
-		
-		return -n1.compareTo(n2);
+//		return -n1.compareTo(n2);
 	}
 }
 

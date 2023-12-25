@@ -33,7 +33,7 @@ public class AccesingInfoFromCollection {
 		}
 		System.out.println("************************************");
 		//in reverse direction
-		//list iterator is only available for ArrayList and Liinkedlist
+		//list iterator is only available for ArrayList and Linkedlist
 		ListIterator litr=al.listIterator(al.size());
 		while(litr.hasPrevious()) {
 			System.out.println(litr.previous());

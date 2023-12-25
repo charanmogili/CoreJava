@@ -14,6 +14,7 @@ public class StudentDatabase {
     	stdmap.put(2, "sachin");
     	stdmap.put(3, "virat");
     	stdmap.put(4, "bumrah");
+    	stdmap.put(2, "charan");
         
         // Print the contents of the database
         Iterator<Entry<Integer, String>> stddb=stdmap.entrySet().iterator();

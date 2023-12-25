@@ -37,22 +37,20 @@ public class Launch1 {
 		ArrayList ar3=new ArrayList();
 		ar3.add(10);
 		ar3.add(20);
-		ar3.add(20);
+		ar3.add(40);
 		ar3.add(40);
 		ar3.add(50);
 		
 		Collections.sort(ar3);
 		System.out.println(ar3);
-		Integer i=Collections.binarySearch(ar3, 30);
+		Integer i=Collections.binarySearch(ar3, 50);
 		System.out.println(i);
 		
 		Collections.shuffle(ar3);
 		System.out.println(ar3);
 		
-		int i1=Collections.frequency(ar3, 20);
+		int i1=Collections.frequency(ar3,40);
 		System.out.println(i1);
-		
-		
+			
 	}
-
 }

@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -9,7 +10,7 @@ public class MapPractice {
 
 		Map<Integer, Set<Integer>> map = new HashMap();
 		
-		Set<Integer> set1=new HashSet<>();
+		Set<Integer> set1=new LinkedHashSet<>();
 		set1.add(8);
 		set1.add(18);
 		
